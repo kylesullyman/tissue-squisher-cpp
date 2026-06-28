@@ -1,0 +1,42 @@
+# Build directories
+/build/
+/cmake-build-*/
+/out/
+
+# CMake artifacts (in case of in-source builds)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+install_manifest.txt
+compile_commands.json
+
+# CMakeUserPresets.json holds machine-specific paths (e.g. VCPKG_ROOT) and
+# should stay local per CMake convention.
+CMakeUserPresets.json
+
+# vcpkg
+vcpkg_installed/
+
+# Compiled objects, libraries, and executables
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Debug symbols
+*.dSYM/
+*.pdb
+
+# macOS
+.DS_Store
+
+# JetBrains IDEs (CLion / IntelliJ)
+.idea/
+*.iml
