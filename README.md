@@ -1,14 +1,8 @@
 # C++ conversion from the tissue squisher project
 
-
 ## Setup Requirements
 **Guide to getting setup with vcpkg**
 https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-powershell
-
-
-
-
-
 
 ## Other Possibly Necessary Drivers
 **USB to UART Bridge VCP Drivers**
@@ -16,6 +10,8 @@ https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=ove
 
 **Powermeter USB Driver**
 https://www.ophiropt.com/laser--measurement/software/starlab-for-usb
+Main website for device:
+https://www.newport.com/p/844-PE-USB
 
 **Thorlabs PAX1000 Driver**
 https://www.thorlabs.com/software_pages/ViewSoftwarePage.cfm?Code=PAX
